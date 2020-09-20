@@ -3,10 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "design_patterns_in_csharp", "design_patterns_in_csharp", "{CEE22C74-156A-4540-9FF0-00A9DB81BE86}"
-	ProjectSection(SolutionItems) = preProject
-		DesignPatternsInCSharp.md = DesignPatternsInCSharp.md
-	EndProjectSection
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "design_patterns_in_csharp", "design_patterns_in_csharp", "{E279A95C-9926-4A46-AE39-8DD2233283CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mediator_pattern", "mediator_pattern", "{564C4A0E-3D4F-4E34-BD9B-0DCC2048FE74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B19F965E-8888-4C7F-850A-F614B26FEBB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "design_patterns_in_csharp\mediator_pattern\src\Mediator\Mediator.csproj", "{90903D01-DB52-4E1D-9E7A-65042E4F2880}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3A571AFE-7499-48F1-890F-5D28EEDD09FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator.Tests", "design_patterns_in_csharp\mediator_pattern\test\Mediator.Tests\Mediator.Tests.csproj", "{F1F850BC-8027-4102-9086-D99507397555}"
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
@@ -14,5 +21,46 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {499CB9E9-EDD3-4A93-9539-76F9E5AAD0A0}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90903D01-DB52-4E1D-9E7A-65042E4F2880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90903D01-DB52-4E1D-9E7A-65042E4F2880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90903D01-DB52-4E1D-9E7A-65042E4F2880}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{90903D01-DB52-4E1D-9E7A-65042E4F2880}.Debug|x64.Build.0 = Debug|Any CPU
+		{90903D01-DB52-4E1D-9E7A-65042E4F2880}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{90903D01-DB52-4E1D-9E7A-65042E4F2880}.Debug|x86.Build.0 = Debug|Any CPU
+		{90903D01-DB52-4E1D-9E7A-65042E4F2880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90903D01-DB52-4E1D-9E7A-65042E4F2880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90903D01-DB52-4E1D-9E7A-65042E4F2880}.Release|x64.ActiveCfg = Release|Any CPU
+		{90903D01-DB52-4E1D-9E7A-65042E4F2880}.Release|x64.Build.0 = Release|Any CPU
+		{90903D01-DB52-4E1D-9E7A-65042E4F2880}.Release|x86.ActiveCfg = Release|Any CPU
+		{90903D01-DB52-4E1D-9E7A-65042E4F2880}.Release|x86.Build.0 = Release|Any CPU
+		{F1F850BC-8027-4102-9086-D99507397555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F850BC-8027-4102-9086-D99507397555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F850BC-8027-4102-9086-D99507397555}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F1F850BC-8027-4102-9086-D99507397555}.Debug|x64.Build.0 = Debug|Any CPU
+		{F1F850BC-8027-4102-9086-D99507397555}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F1F850BC-8027-4102-9086-D99507397555}.Debug|x86.Build.0 = Debug|Any CPU
+		{F1F850BC-8027-4102-9086-D99507397555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F850BC-8027-4102-9086-D99507397555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F850BC-8027-4102-9086-D99507397555}.Release|x64.ActiveCfg = Release|Any CPU
+		{F1F850BC-8027-4102-9086-D99507397555}.Release|x64.Build.0 = Release|Any CPU
+		{F1F850BC-8027-4102-9086-D99507397555}.Release|x86.ActiveCfg = Release|Any CPU
+		{F1F850BC-8027-4102-9086-D99507397555}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{564C4A0E-3D4F-4E34-BD9B-0DCC2048FE74} = {E279A95C-9926-4A46-AE39-8DD2233283CA}
+		{B19F965E-8888-4C7F-850A-F614B26FEBB8} = {564C4A0E-3D4F-4E34-BD9B-0DCC2048FE74}
+		{90903D01-DB52-4E1D-9E7A-65042E4F2880} = {B19F965E-8888-4C7F-850A-F614B26FEBB8}
+		{3A571AFE-7499-48F1-890F-5D28EEDD09FB} = {564C4A0E-3D4F-4E34-BD9B-0DCC2048FE74}
+		{F1F850BC-8027-4102-9086-D99507397555} = {3A571AFE-7499-48F1-890F-5D28EEDD09FB}
 	EndGlobalSection
 EndGlobal
